@@ -1,14 +1,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-  
 }
 
 .heading-button {
     display: flex;
     margin-left: 25%;
     margin-top: 25px;
-  
 }
 
 .header-btn {
@@ -21,7 +19,6 @@ body {
     padding: 15px 35px;
     background-image: linear-gradient(90deg, rgb(246, 168, 22), rgb(233, 74, 45));
     border-radius: 80px;
-
 }
 
 h1 {
@@ -39,6 +36,7 @@ h2 {
     color: gray;
     font-size: 40px;
 }
+
 .orange-text {
     color: orange;
 }
@@ -57,7 +55,6 @@ h2 {
     width: 60%;
     margin-left: 120px;
     margin-top: 80px;
- 
 }
 
 .half-width img {
@@ -98,7 +95,6 @@ h2 {
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 .healthy-receipes {
@@ -108,16 +104,15 @@ h2 {
     box-shadow: 10px 10px 25px gray;
     border-radius: 10px;
     padding: 20px;
-
 }
 
 .my-recipies {
     margin-bottom: 150px;
 }
+
 .healthy-receipes img {
     width: 100%;
     border-radius: 10px;
-   
 }
 
 .chef-information {
@@ -125,13 +120,10 @@ h2 {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 100px;
-
-   
 }
 
 .chef-images {
     margin-left: 120px;
-
 }
 
 .chef-images img {
@@ -142,4 +134,36 @@ h2 {
 .chef-title {
     text-align: center;
     line-height: 0;
+}
+
+
+/*******---- blog-post-area--------- *********/
+
+.blog-posts {
+    margin-bottom: 150px;
+}
+
+.posts-items {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.blog-post-image {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.blog-post-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.read-more-btn {
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
