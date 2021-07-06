@@ -57,7 +57,7 @@ h2 {
     width: 60%;
     margin-left: 120px;
     margin-top: 80px;
-    position: relative;
+ 
 }
 
 .half-width img {
@@ -83,7 +83,63 @@ h2 {
 .middle-part-bg {
     background-image: url(images/middle-bg-banner.png);
     background-repeat: no-repeat;
-    position: absolute;
+}
+
+.content-heading-area {
+    text-align: center;
+}
+
+.content-heading-area p {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.recipies-items {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
+.healthy-receipes {
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.my-recipies {
+    margin-bottom: 150px;
+}
+.healthy-receipes img {
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+.chef-information {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+
+   
+}
+
+.chef-images {
+    margin-left: 120px;
+
+}
+
+.chef-images img {
+    border-radius: 100px;
+    border: 5px solid salmon;
+}
+
+.chef-title {
+    text-align: center;
+    line-height: 0;
+}
